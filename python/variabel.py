@@ -47,3 +47,9 @@ sebuah nilai, jadi kalian tinggal memanggil variabelnya saja, contoh dibawah ini
 halo = "halo selamat datang di"
 print(halo, "Indonesia")
 print(halo, "ngawi island")
+
+#kalian juga bisa membuat variabel dalam satu baris seperti dibawah ini
+nama, umur, kelamin = "Mas amba", 100, "Monyet Ijo banyumas"
+print(nama) #Output: Mas ambda
+print(umur) #Output: 100
+print(kelamin) #Output: Monyet Ijo
