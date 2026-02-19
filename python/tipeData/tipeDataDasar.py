@@ -15,7 +15,7 @@ i = 11.100 #ini float
 e = True #ini boolean
 s = False #ini juga boolean
 #Untuk boolean harus diawali dengan kapital, jika seperti dibawah ini
-m = true #ini akan error karena true dianggap sebagai variabel
-n = false #ini juga akan error karena false dianggap sebagai variabel
+#m = true #ini akan error karena true dianggap sebagai variabel
+#n = false #ini juga akan error karena false dianggap sebagai variabel
 
 #Untuk melihat semua hasilnya kalian bisa print saja variabelnya, dan hapus dulu variabel m dan n karena akan menyebabkan error

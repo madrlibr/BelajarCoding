@@ -8,7 +8,7 @@ nilai boolean, yaitu True ataupun false
 x = 9 == 9 and 13 == 13
 print("x: ", x)
 """
-Disini ada dua perbandingan (10 == 10)kiri dan (11 == 13)kanan, "and" disini bisa berarti
+Disini ada dua perbandingan (10 == 10)kiri dan (13 == 13)kanan, "and" disini bisa berarti
 kalau kedua perbandingan yaitu perbandingan kiri dan kanan hasilnya True, maka hasilkan nilai True, kalau salah
 satunya berisi False, maka hasilkan nilai False, seperti bertanya "Apakah kedua perbandingan memiliki nilai True"
 maka kalau salah satunya saja False, maka nilai False yang akan dihasilkan
