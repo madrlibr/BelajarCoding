@@ -4,8 +4,8 @@ Nah jadi apa itu variabel?
 variabel adalah tempat dimana kita menaruh sebuah nilai, 'tempat' disini bukan berarti
 tempat beneran ya. Agar gampang, kalau kalian ingat pelajaran matematika yaitu dimana phi=3,14.. atau e=2.71.., nah phi atau e
 itulah yang dinamakan variabel dan berisi sebuah nilai, dalam kasus ini phi atau e adalah variabel yang berisi
-sebuah angka yaitu 3,14... dan 2.71.., nah di pemrograman kita bisa membuat variabel kita sendiri sama seperti di matematika,
-namun hanya saja di pemrograman, nilainya itu bukan bisa hanya angka, tapi bisa sangat luas, bisa berupa text, variabel lain, list, dll
+sebuah angka yaitu 3,14 dan 2.71., nah di pemrograman kita bisa membuat variabel kita sendiri sama seperti di matematika,
+namun hanya saja di pemrograman, nilainya itu bukan hanya angka, tapi bisa sangat luas, bisa berupa text, input, list, variabel lain, dll
 """
 
 x = 10 # Nah ini adalah variabel, dimana x adalah 10
@@ -48,8 +48,8 @@ halo = "halo selamat datang di"
 print(halo, "Indonesia")
 print(halo, "ngawi island")
 
-#kalian juga bisa membuat variabel dalam satu baris seperti dibawah ini
+#kalian juga bisa membuat beberapa variabel sekaligus dalam satu baris seperti dibawah ini
 nama, umur, kelamin = "Mas amba", 100, "Monyet Ijo banyumas"
-print(nama) #Output: Mas ambda
+print(nama) #Output: Mas amba
 print(umur) #Output: 100
-print(kelamin) #Output: Monyet Ijo
+print(kelamin) #Output: Monyet Ijo banyumas

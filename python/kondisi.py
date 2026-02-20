@@ -1,20 +1,21 @@
 """
-Disini kita akan membahas "kondisi" yaitu ada if, else, elif.
+Disini kita akan membahas "kondisi" atau percabangan yaitu ada if, else, elif.
 Sebelum itu apakah kalian tau konsep sebab-akibat? konsep sebab-akibat(kausalitas) adalah konsep yang menjelaskan
-hubugan dua peristiwa yaitu sebab dan akibat, dimana sebab secara langsung menghasilkan akibat, contohnya.
+hubugan dua peristiwa yaitu sebab dan akibat, dimana sebab menghasilkan sebuah akibat, 
+contohnya:
 "Aku lapar maka aku makan" disini "lapar" adalah sebab dan "makan" adalah akibat
 nah di "kondisi" konsepnya sama seperti di konsep "sebab-akibat".
 """
 
 #Contoh:
-umur = 11 #kita punya variabel x = 10
+umur = 11 #kita punya variabel bernama umur = 11
 
 if umur < 18: #kita pakai operator perbandingan yaitu >
     print("Umur kurang dari 18, tidak bisa masuk!")
 
 """
 Jika kita pakai bahasa manusia untuk membaca baris kode diatas, maka bisa dibaca
-"x adalah 11, jika x lebih besar dari 10 maka cetak(x lebih besar dari 10)"
+"variabel umur adalah 11, jika kurang dari 10 maka cetak()Umur kurang dari 18, tidak bisa masuk!"
 
 nah baris "if x > 10" bisa dianggap sebagai sebab/penyebab dan baris didalamnnya yaitu print("x lebih besar dari 10")
 adalah akibatnya
