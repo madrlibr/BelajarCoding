@@ -79,12 +79,18 @@ akun_1["umur"] = 51
 print(akun_1)
 
 print(40 * "=")
+#mengambil key/kunci saja
 print(f"Kunci akun_1: {akun_1.keys()}")
+
+#Mengambil nilai saja
 print(f"Nilai akun_1: {akun_1.values()}")
+
+#Mengambil pasangan kunci dan nilai
 print(f"Pasangan kunci dan nilai akun_1: {akun_1.items()}")
 print(40 * "=")
 #selain tipe data dasar, kita juga bisa menjadikan list dan Dictionary lain sebagai value dari sebuah Dictionary
  
+#DICTIONARY DALAM DICTIONARY
 akun_2 = {
     "username": "Lilhab",
     "umur": 100,
@@ -98,7 +104,26 @@ database = {
 }
 print(f"akun ke-2 di database: {database["akun_2"]}")
 
+#Mengambil sandi akun_1:
+print(f"Kata sandi akun ke-1: {database["akun_1"]["sandi"]}")
 
+#===========LIST DALAM DICTIONARY============
 
+namaBlacklist = ["Razor", "Bull", "JV", "Ming"]
+mobilBlacklist = ["BMW M3 GTR", "SLR McLaren", "Dodge Viper", "Lamborghini Gallardo"]
 
-MMMM
+dataBlacklist = {
+    "nama": namaBlacklist,
+    "mobil": mobilBlacklist
+}
+
+print(dataBlacklist)
+print(50 * "=")
+print(f"Mobil Razor: {dataBlacklist["mobil"][0]}")
+
+#Mengubah Data:
+dataBlacklist["mobil"][0] = "Becak"
+
+print("Data setelah dirubah: ")
+print(dataBlacklist["nama"])
+print(dataBlacklist["mobil"])

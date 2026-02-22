@@ -13,14 +13,9 @@ namun hanya saja di pemrograman, tipe nilainya itu bukan hanya angka, tapi bisa 
 x = 10 # Nah ini adalah variabel, dimana x adalah 10
 #dan disini cara kerjanya juga mirip dengan variabel di matematika dimana variabel bisa dipakai berulang ulang
 
-print(x)
-"""
-disini ada print juga, print artinya mencetak sesuatu ke terminal, dan disini kita mau mencetak x
-Jika kalian sudah bisa tahu hasilnya bagaimana sebelum kodenya di run/dijalankan itu artinya kalian sudah paham, tapi kalau tidak pun
-tidak papa.
-"""
+print(x) #mencetak variabel x
 
-# Untuk cara menjalankan kode, kalian ketik py "nama_file".py di terminal kalian, dan karena ini file ini namanya variabel.py
+# Untuk cara menjalankan kode, kalian ketik: py "nama_file".py  di terminal kalian, dan karena ini file ini namanya variabel.py
 # maka kalian ketik py variabel.py di terminal, jika tidak bisa, coba ganti py menjadi python dan pastikan direktori kalian benar
 
 """
@@ -35,7 +30,6 @@ print("x")
 #jadi untuk memprint teks atau biasa disebut string, kalian harus menggunakan tanda " atau juga bisa '
 
 y = "Halo Indonesia" #Ini adalahh variabel bertipe string
-
 #tadi dikatakan bahwa variabel isinya luas tidak hanya angka, nah ini salah satunya yaitu string
 #dan cara  kerjanya masih sama dengan yang tadi, kalian tinggal memanggil nama variabelnya, lalu nilainya nanti akan ditampilkan/dicetak
 print(y) #mencetak variavel y
